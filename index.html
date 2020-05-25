@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aathuraya</title>
+</head>
+<body>
+    <header id = "header">
+        <a href="#" class = "logo">LOGO</a>
+        <ul>
+            <li><a href="#home" class = "active" onclick="toggle()">Home</a></li>
+            <li><a href="#about" onclick="toggle()">about</a></li>
+            <li><a href="#service" onclick="toggle()">service</a></li>
+            <li><a href="#portfolio" onclick="toggle()">portfolio</a></li>
+            <li><a href="#contact" onclick="toggle()">contact</a></li>
+        </ul>
+        <div class = "toggle" onclick="toggle()"></div>
+    </header>
+    <section id = "home">
+        <div>
+            <h2>Responsive website for beginners</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">read more....</a>
+            <img src="img1.png" alt="wolf tiger">
+        </div>
+    </section>
+    <section id = "about">
+        <div>
+            <h2>about us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">read more....</a>
+            <img src="img2.png" alt="wolf tiger">
+        </div>
+    </section>
+    <section id = "service">
+        <div>
+            <h2>service</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">read more....</a>
+            <img src="img3.png" alt="wolf tiger">
+        </div>
+    </section>
+    <section id = "portfolio">
+        <div>
+            <h2>portfolio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">read more....</a>
+            <img src="img4.png" alt="wolf tiger">
+        </div>
+    </section>
+    <section id = "contact">
+        <div>
+            <h2>contact</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">read more....</a>
+            <img src="img6.png" alt="wolf tiger">
+        </div>
+    </section>
+    <script type="text/javascript">
+        function toggle(){
+            var header = document.getElementById("header")
+            header.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
